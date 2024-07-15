@@ -18,14 +18,14 @@
 
 #define DAB_TIMER_ISO_DATE_FORMAT "%.4d-%.2d-%.2d"
 #define DAB_TIMER_RFC_DATE_FORMAT "%.2d-%.2d-%.4d"
-#define DAB_TIMER_TIME_FORMAT "%.2d:%.2d:%.2d"
-#define MERIDIAN_FORMAT "%s"
-#define MERIDIAN_STRING_AM "AM"
-#define MERIDIAN_STRING_PM "PM"
-#define TIME_LEN 12
-#define DATE_LEN 14
-#define MERIDIAN_LEN 3
-#define PI 3.14
+#define DAB_TIMER_TIME_FORMAT     "%.2d:%.2d:%.2d"
+#define MERIDIAN_FORMAT           "%s"
+#define MERIDIAN_STRING_AM        "AM"
+#define MERIDIAN_STRING_PM        "PM"
+#define TIME_LEN                  12
+#define DATE_LEN                  14
+#define MERIDIAN_LEN              3
+#define PI                        3.14
 // #define DAB_TIMER_SETTINGS_PATH CFG_PATH("dab_timer_settings.txt")
 
 typedef struct {
